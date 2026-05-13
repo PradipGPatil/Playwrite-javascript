@@ -3,7 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 // to run playwrite we need default config file where playwrite check 
 const config= defineConfig({
-  testDir: './tests',
+  testDir: './tests/',
   reporter: 'html',
 // by default playwrite has 30 sec timeout so it will wait button to be loaded 
   timeout:40*1000,
